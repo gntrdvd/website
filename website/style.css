@@ -1,0 +1,42 @@
+.color1stcolumn{
+    color: rgb(87, 180, 196);
+}
+
+.color2ndcolumn{
+    color : rgb(255, 222, 77); 
+}
+
+.changebackground{
+    background-color: darksalmon;
+}
+
+.designedImages {
+   display: flex;
+    height: 20rem;
+    gap: 1rem;
+    padding-top: 10px;
+}
+.designedImages > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.designedImages > div:hover {
+    flex: 5;
+    ;
+}
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: rgb(32, 32, 32);
+    color: white;
+  }
+  
